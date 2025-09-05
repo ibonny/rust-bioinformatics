@@ -1,0 +1,30 @@
+[package]
+name = "rust-bioinformatics"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[features]
+first-features = []
+
+[[bin]]
+name = "first"
+path = "src/first.rs"
+required-features = ["first-features"]
+
+[[bin]]
+name = "rosalind_dna"
+path = "src/rosalind_dna.rs"
+
+[[bin]]
+name = "rosalind_rna"
+path = "src/rosalind_rna.rs"
+
+[[bin]]
+name = "rosalind_revc"
+path = "src/rosalind_revc.rs"
+
+[[bin]]
+name = "rosalind_fib"
+path = "src/rosalind_fib.rs"

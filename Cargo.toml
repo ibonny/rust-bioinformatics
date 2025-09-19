@@ -28,3 +28,7 @@ path = "src/rosalind_revc.rs"
 [[bin]]
 name = "rosalind_fib"
 path = "src/rosalind_fib.rs"
+
+[[bin]]
+name = "fibonacci"
+path = "src/fibonacci.rs"
